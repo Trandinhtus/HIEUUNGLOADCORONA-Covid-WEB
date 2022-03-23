@@ -1,0 +1,10 @@
+<script type="text/javascript">
+ /*<![CDATA[*/
+// Preloader
+ 
+$(window).bind("load", function () {
+    jQuery("#stringPreloader").fadeOut();
+    jQuery("#loader").fadeOut();
+});
+  /*]]>*/
+</script>
